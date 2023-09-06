@@ -1,0 +1,171 @@
+#========= VBF DMQ
+
+imax 1  number of channels
+jmax 6  number of backgrounds
+kmax 155 number of nuisance parameters (sources of systematic uncertainties)
+
+# we have just one channel and will use some dummy data
+bin tautau
+observation	566
+
+bin            tautau	tautau	tautau	tautau	tautau	tautau	tautau 
+process        SIG      W+j     Z+j	ttb	VV	qcd	singlet 
+process        0        1       2	3	4	5	6
+rate           1.1693	110.566	218.881	102.237	55.873	41.583	24.592
+
+lumi    lnN    1.028   1.028   1.028	1.028	1.028	-       1.028
+ISR00	lnN    -	-	-	-	-	-	-
+ISR01	lnN    -	-	-	-	-	-	-
+ISR02	lnN    -	-	-	-	-	-	-
+ISR03	lnN    -	-	-	-	-	-	-
+ISR04	lnN    -	-	-	-	-	-	-
+ISR05	lnN    -	-	-	-	-	-	-
+ISR06	lnN    -	-	-	-	-	-	-
+PDF00	lnN    1.065	-	-	-	-	-	-
+PDF01	lnN    -	1.035	-	-	-	-	-
+PDF02	lnN    -	-	1.035	-	-	-	-
+PDF03	lnN    -	-	-	1.035	-	-	-
+PDF04	lnN    -	-	-	-	1.035	-	-
+PDF05	lnN    -	-	-	-	-	-	-
+PDF06	lnN    -	-	-	-	-	-	1.028
+STMC00	lnN    -	-	-	-	-	-	-
+STMC01	lnN    -	-	-	-	-	-	-
+STMC02	lnN    -	-	-	-	-	-	-
+STMC03	lnN    -	-	-	-	-	-	-
+STMC04	lnN    -	-	-	-	-       -	-
+STMC05	lnN    -	-	-	-	-	-	-
+STMC06	lnN    -	-	-	-	-	-	-
+STDA00	lnN    -	-	-	-	-	-	-
+STDA01	lnN    -	-	-	-	-	-	-
+STDA02	lnN    -	-	-	-	-	-	-
+STDA03	lnN    -	-	-	-	-	-	-
+STDA04	lnN    -	-	-	-	-	-	-
+STDA05	lnN    -	-	-	-	-	-	-
+STDA06	lnN    -	-	-	-	-	-	-
+Trig00	lnN    1.03	1.03	1.03	1.03	1.03	-	1.03
+Trig01	lnN    -	-	-	-	-	-	-
+Trig02	lnN    -	-	-	-	-	-	-
+Trig03	lnN    -	-	-	-	-	-	-
+Trig04	lnN    -	-	-	-	-	-	-
+Trig05	lnN    -	-	-	-	-	-	-
+Trig06	lnN    -	-	-	-	-	-	-
+MuID10	lnN    1.01	-	-	-	-	-	-
+MuID11	lnN    -	-	-	-	-	-	-
+MuID12	lnN    -	-	-	-	-	-	-
+MuID13	lnN    -	-	-	-	-	-	-
+MuID14	lnN    -	-	-	-	-	-	-
+MuID15	lnN    -	-	-	-	-	-	-
+MuID16	lnN    -	-	-	-	-	-	-
+ElID10	lnN    -	-	-	-	-	-	-
+ElID11	lnN    -	-	-	-	-	-	-
+ElID12	lnN    -	-	-	-	-	-	-
+ElID13	lnN    -	-	-	-	-	-	-
+ElID14	lnN    -	-	-	-	-	-	-
+ElID15	lnN    -	-	-	-	-	-	-
+ElID16	lnN    -	-	-	-	-	-	-
+TaID00  lnN    -        -       -       -       -       -       -
+TaID01  lnN    -        -       -       -       -       -       -
+TaID02  lnN    -        -       -       -       -       -       -
+TaID03  lnN    -        -       -       -       -       -       -
+TaID04  lnN    -        -       -       -       -       -       -
+TaID05  lnN    -        -       -       -       -       -       -
+TaID06  lnN    -        -       -       -       -       -       -
+bID00	lnN    1.01	-	-	-	-	-	-
+bID01	lnN    -	1.01	1.01	-	-	-	-
+bID02	lnN    -	-	-	-	-	-	-
+bID03	lnN    -	-	-	1.1	-	-	-
+bID04	lnN    -	-	-	-	1.01	-	-
+bID05	lnN    -	-	-	-	-	-	-
+bID06	lnN    -	-	-	-	-	-	1.1
+EES10	lnN    -	-	-	-	-	-	-
+EES11	lnN    -	-	-	-	-	-	-
+EES12	lnN    -	-	-	-	-	-	-
+EES13	lnN    -	-	-	-	-	-	-
+EES14	lnN    -	-	-	-	-	-	-
+EES15	lnN    -	-	-	-	-	-	-
+EES16	lnN    -	-	-	-	-	-	-
+MMS10	lnN    1.07	-	-	-	-	-	-
+MMS11	lnN    -	-	-	-	-	-	-
+MMS12	lnN    -	-	-	-	-	-	-
+MMS13	lnN    -	-	-	-	-	-       -
+MMS14	lnN    -	-	-	-	-	-	-
+MMS15	lnN    -	-	-	-	-	-	-
+MMS16	lnN    -	-	-	-	-	-	-
+TES10	lnN    1.05	-	-	-	-	-	-
+TES11	lnN    -	-	-	-	-	-	-
+TES12	lnN    -	-	-	-	-	-	-
+TES13	lnN    -	-	-	-	-	-	-
+TES14	lnN    -	-	-	-	-	-	-
+TES15	lnN    -	-	-	-	-	-	-
+TES16	lnN    -	-	-	-	-	-	-
+JES00	lnN    -	-	-	-	-	-	-
+JES01	lnN    -	-	-	-	-	-	-
+JES02	lnN    -	-	-	-	-	-	-
+JES03	lnN    -	-	-	-	-	-	-
+JES04	lnN    -	-	-	-	-	-	-
+JES05	lnN    -	-	-	-	-	-	-
+JES06	lnN    -	-	-	-	-	-	-
+Close10	lnN    -	-	-	-	-	-	-
+Close11	lnN    -	-	-	-	-	-	-
+Close12	lnN    -	-	-	-	-	-	-
+Close13	lnN    -	-	-	-	-	-	-
+Close14	lnN    -	-	-	-	-	-	-
+Close15	lnN    -	-	-	-	-	1.20	-
+Close16	lnN    -	-	-	-	-	-	-
+ttbar10	lnN    -	-	-	-	-	-	-
+ttbar11	lnN    -	-	-	-	-	-	-
+ttbar12	lnN    -	-	-	-	-	-	-
+ttbar13	lnN    -	-	-	1.047	-	-	-
+ttbar14	lnN    -	-	-	-	-	-	-
+ttbar15	lnN    -	-	-	-	-	-	-
+ttbar16	lnN    -	-	-	-	-	-	-
+dy10    lnN    -        -       -       -       -       -       -
+dy11	lnN    -	0.989	1.1866	-	-	-	-
+dy12 	lnN    -        -       -       -       -       -       -
+dy13 	lnN    -        -       -       -       -       -       -
+dy14 	lnN    -        -       -       -       -       -       -
+dy15 	lnN    -        -       -       -       -       -       -
+dy16 	lnN    -        -       -       -       -       -       -
+wj10 	lnN    -        -       -       -       -       -       -
+wj11	lnN    -	1.183	0.95	-	-	-	-
+wj12 	lnN    -        -       -       -       -       -       -
+wj13 	lnN    -        -       -       -       -       -       -
+wj14 	lnN    -        -       -       -       -       -       -
+wj15 	lnN    -        -       -       -       -       -       -
+wj16 	lnN    -        -       -       -       -       -       -
+tt10 	lnN    -        -       -       -       -       -       -
+tt11	lnN    -	-	-	1.1076	-	-	-
+tt12 	lnN    -        -       -       -       -       -       -
+tt13 	lnN    -        -       -       -       -       -       -
+tt14 	lnN    -        -       -       -       -       -       -
+tt15 	lnN    -        -       -       -       -       -       -
+tt16 	lnN    -        -       -       -       -       -       -
+st10 	lnN    -        -       -       -       -       -       -
+st11	lnN    -	-	-	-	-	-	1.11
+st12 	lnN    -        -       -       -       -       -       -
+st13 	lnN    -        -       -       -       -       -       -
+st14 	lnN    -        -       -       -       -       -       -
+st15 	lnN    -        -       -       -       -       -       -
+st16 	lnN    -        -       -       -       -       -       -
+qcd10 	lnN    -        -       -       -       -       -       -
+qcd11	lnN    -	-	-	-	-	1.23	-
+qcd12 	lnN    -        -       -       -       -       -       -
+qcd13 	lnN    -        -       -       -       -       -       -
+qcd14 	lnN    -        -       -       -       -       -       -
+qcd15 	lnN    -        -       -       -       -       -       -
+qcd16 	lnN    -        -       -       -       -       -       -
+vv10 	lnN    -        -       -       -       -       -       -
+vv11	lnN    -	-	-	-	1.04	-	-
+vv12 	lnN    -        -       -       -       -       -       -
+vv13 	lnN    -        -       -       -       -       -       -
+vv14 	lnN    -        -       -       -       -       -       -
+vv15 	lnN    -        -       -       -       -       -       -
+vv16 	lnN    -        -       -       -       -       -       -
+sgn10 	lnN    -        -       -       -       -       -       -
+sgn11	lnN    1.03	-	-	-	-	-	-
+sgn12 	lnN    -        -       -       -       -       -       -
+sgn13 	lnN    -        -       -       -       -       -       -
+sgn14 	lnN    -        -       -       -       -       -       -
+sgn15 	lnN    -        -       -       -       -       -       -
+sgn16 	lnN    -        -       -       -       -       -       -
+#=============================================
